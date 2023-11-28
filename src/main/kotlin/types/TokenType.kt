@@ -1,0 +1,18 @@
+package types
+
+enum class TokenType {
+    NUMBER,
+    MATH_OPERATOR,
+    INVALID_CHARACTER,
+    RESERVED_WORD,
+    IDENTIFIER,
+    SYMBOL,
+    END_OF_LINE,
+    COMMENT,
+    CHARACTER,
+    TEXT,
+    NEGATION,
+    COMPARISON_OP,
+    ASSIGNMENT_OP,
+    DEFAULT
+}

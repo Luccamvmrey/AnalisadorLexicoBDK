@@ -1,0 +1,11 @@
+#var num de tipo int
+samskara num : sankhya = 20;
+
+#val bool de tipo boolean
+dharma bool : satyavada = satya;
+
+yadi (num > 10) {
+    num = num + 1;
+} anyatha {
+    num = num - 1;
+}
